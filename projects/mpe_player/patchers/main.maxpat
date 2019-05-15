@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 719.0, 178.0, 552.0, 576.0 ],
+		"rect" : [ 719.0, 178.0, 446.0, 327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 102.0, 16.333344000000011, 54.0, 24.0 ],
+					"text" : "Play"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -135,7 +147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 16.333344000000011, 20.0, 20.0 ]
+					"patching_rect" : [ 67.0, 16.333344000000011, 29.5, 29.5 ]
 				}
 
 			}
@@ -317,15 +329,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "js-index.js",
-				"bootpath" : "~/repos/spectral-lab/maxproj/mpe_player/code",
+				"bootpath" : "~/repos/spectral-lab/projects/mpe_player/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "distributer.maxpat",
-				"bootpath" : "~/repos/spectral-lab/maxproj/utils",
-				"patcherrelativepath" : "../../utils",
+				"bootpath" : "~/repos/spectral-lab/common",
+				"patcherrelativepath" : "../../../common",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -86,7 +86,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "data_to_send: any",
 					"id" : "obj-12",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -99,7 +99,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "track_id: int | symbol",
 					"id" : "obj-13",
 					"index" : 0,
 					"maxclass" : "inlet",
