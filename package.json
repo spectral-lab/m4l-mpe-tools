@@ -1,0 +1,84 @@
+{
+  "name": "pwt-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "NODE_ENV=test jest",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "decibels": "^2.0.0",
+    "dsp.js-browser": "^1.0.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "ndarray-normalize": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-pack": "^1.2.1",
+    "ndarray-unpack": "^1.0.0",
+    "pngjs": "^3.4.0",
+    "socket.io-client": "^2.2.0",
+    "vue": "^2.6.6",
+    "vue-videobg": "^2.0.0",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-links": "^5.0.10",
+    "@storybook/addons": "^5.0.10",
+    "@storybook/vue": "^5.0.10",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "jest": "^24.5.0",
+    "standardized-audio-context-mock": "^6.2.23",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
