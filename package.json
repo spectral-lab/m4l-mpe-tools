@@ -1,8 +1,7 @@
 {
-  "name": "pwt-extractor",
+  "name": "spectral-lab",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,7 +9,11 @@
     "test": "NODE_ENV=test jest",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "install:hello_world": "cd ./projects/hello_world/node_content && yarn",
+    "install:spectral_extractor": "cd ./projects/spectral_extractor/node_content && yarn",
+    "install:all": "yarn run install:hello_world & yarn run install:spectral_extractor & yarn",
+    "rm-cache": "node ./scripts/rm-cache"
   },
   "dependencies": {
     "decibels": "^2.0.0",
