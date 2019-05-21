@@ -1,0 +1,12 @@
+{
+  "name": "m4l-mpe-tools",
+  "version": "1.0.0",
+  "description": "Max for Live devices for utilizing MPE",
+  "scripts": {
+    "rm-cache": "node ./scripts/rm-cache"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/spectral-lab/m4l-mpe-tools",
+  "author": "spectral-lab",
+  "license": "MIT"
+}
