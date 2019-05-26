@@ -2,7 +2,7 @@
 	"name" : "mpe_out",
 	"version" : 1,
 	"creationdate" : 3641675784,
-	"modificationdate" : 3641678633,
+	"modificationdate" : 3641708018,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -29,6 +29,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/repos/m4l-mpe-tools/projects/mpe_out/node_content",
+			"projectrelativepath" : "./node_content",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
 
 	}
 ,
