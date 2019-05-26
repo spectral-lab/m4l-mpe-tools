@@ -2,7 +2,7 @@
 	"name" : "vst_loader",
 	"version" : 1,
 	"creationdate" : 3640787290,
-	"modificationdate" : 3640805218,
+	"modificationdate" : 3641714869,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -21,10 +21,6 @@
 		"code" : 		{
 
 		}
-,
-		"data" : 		{
-
-		}
 
 	}
 ,
@@ -33,6 +29,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/repos/m4l-mpe-tools/common",
+			"projectrelativepath" : "../../common",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 0
+		}
 
 	}
 ,

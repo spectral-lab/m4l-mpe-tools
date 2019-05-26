@@ -49,12 +49,12 @@
 					"patching_rect" : [ 444.0, 25.5, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0
 						}
 
 					}
@@ -82,8 +82,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 199.0, 51.0, 22.0 ],
-					"text" : "receiver"
+					"patching_rect" : [ 52.0, 199.0, 77.0, 22.0 ],
+					"text" : "receive_mpe"
 				}
 
 			}
@@ -355,14 +355,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "js-index.js",
-				"bootpath" : "~/repos/spectral-lab/projects/vst_loader/code",
+				"bootpath" : "~/repos/m4l-mpe-tools/projects/vst_loader/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "receiver.maxpat",
-				"bootpath" : "~/repos/spectral-lab/common",
+				"name" : "receive_mpe.maxpat",
+				"bootpath" : "~/repos/m4l-mpe-tools/common",
 				"patcherrelativepath" : "../../../common",
 				"type" : "JSON",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 78.0, 852.0, 788.0 ],
+		"rect" : [ 477.0, 78.0, 852.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,12 +49,12 @@
 					"patching_rect" : [ 574.0, 13.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0
 						}
 
 					}
@@ -109,12 +109,12 @@
 					"patching_rect" : [ 281.833333333333371, 35.833344000000011, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 48 ],
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.numbox",
-							"parameter_initial_enable" : 1
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 48 ],
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 1
 						}
 
 					}
@@ -238,8 +238,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 185.0, 51.0, 22.0 ],
-					"text" : "receiver"
+					"patching_rect" : [ 52.0, 185.0, 77.0, 22.0 ],
+					"text" : "receive_mpe"
 				}
 
 			}
@@ -497,21 +497,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "js-index.js",
-				"bootpath" : "~/repos/spectral-lab/projects/poly_oscillator/code",
+				"bootpath" : "~/repos/m4l-mpe-tools/projects/poly_oscillator/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "receiver.maxpat",
-				"bootpath" : "~/repos/spectral-lab/common",
+				"name" : "receive_mpe.maxpat",
+				"bootpath" : "~/repos/m4l-mpe-tools/common",
 				"patcherrelativepath" : "../../../common",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "convert_nn_to_freq.maxpat",
-				"bootpath" : "~/repos/spectral-lab/common",
+				"bootpath" : "~/repos/m4l-mpe-tools/common",
 				"patcherrelativepath" : "../../../common",
 				"type" : "JSON",
 				"implicit" : 1

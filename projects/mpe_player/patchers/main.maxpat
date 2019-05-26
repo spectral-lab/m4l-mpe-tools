@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 233.0, 138.0, 22.0 ],
-					"text" : "distributer"
+					"text" : "send_mpe"
 				}
 
 			}
@@ -361,14 +361,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "js-index.js",
-				"bootpath" : "~/repos/spectral-lab/projects/mpe_player/code",
+				"bootpath" : "~/repos/m4l-mpe-tools/projects/mpe_player/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "distributer.maxpat",
-				"bootpath" : "~/repos/spectral-lab/common",
+				"name" : "send_mpe.maxpat",
+				"bootpath" : "~/repos/m4l-mpe-tools/common",
 				"patcherrelativepath" : "../../../common",
 				"type" : "JSON",
 				"implicit" : 1
