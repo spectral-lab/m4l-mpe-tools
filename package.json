@@ -10,6 +10,11 @@
   "author": "spectral-lab",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "note-parser": "^2.0.1",
     "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "tdd-max": "^1.0.3"
   }
 }
