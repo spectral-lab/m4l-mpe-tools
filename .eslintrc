@@ -1,0 +1,32 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": "off",
+    "prettier/prettier": "error"
+  },
+  "overrides": [
+    {
+      "files": "**/js-index.js",
+      "env": {
+        "es6": false,
+        "node": false
+      },
+      "parserOptions": {
+        "ecmaVersion": 5
+      },
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off"
+      }
+    }
+  ]
+}

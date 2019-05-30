@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Max for Live devices for utilizing MPE",
   "scripts": {
+    "format": "yarn prettier --write **/*.js",
+    "lint": "yarn eslint .",
+    "lint:fix": "yarn eslint . --fix",
     "rm-cache": "node ./scripts/rm-cache"
   },
   "main": "index.js",
@@ -10,8 +13,13 @@
   "author": "spectral-lab",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "note-parser": "^2.0.1",
+    "prettier": "^1.17.1",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
