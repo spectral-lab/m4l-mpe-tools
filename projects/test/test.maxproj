@@ -2,7 +2,7 @@
 	"name" : "test",
 	"version" : 1,
 	"creationdate" : 3642055787,
-	"modificationdate" : 3642075359,
+	"modificationdate" : 3642082862,
 	"viewrect" : [ 0.0, 44.0, 361.0, 533.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -35,17 +35,17 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/repos/m4l-mpe-tools/node_modules/tdd-max",
-			"projectrelativepath" : "../../node_modules/tdd-max",
-			"label" : "node_modules/tdd-max",
+			"bootpath" : "~/repos/m4l-mpe-tools/abstractions",
+			"projectrelativepath" : "../../abstractions",
+			"label" : "",
 			"recursive" : 1,
 			"enabled" : 1,
 			"includeincollective" : 0
 		}
 ,
 		"1" : 		{
-			"bootpath" : "~/repos/m4l-mpe-tools/abstractions",
-			"projectrelativepath" : "../../abstractions",
+			"bootpath" : "~/repos/m4l-mpe-tools/node_modules/tdd-max",
+			"projectrelativepath" : "../../node_modules/tdd-max",
 			"label" : "",
 			"recursive" : 1,
 			"enabled" : 1,

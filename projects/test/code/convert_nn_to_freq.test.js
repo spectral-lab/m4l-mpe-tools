@@ -55,5 +55,21 @@ module.exports = {
       parser.freq(44),
       0.1
     );
+  },
+  testMicroTone: function*(maxAPI) {
+    maxAPI.outlet({
+      convert_nn_to_freq: { inlet0: 60, inlet1: 8192 + 8192 / 4, inlet2: 1 }
+    });
+    expect(yield, 'Eighth higher than C=60').to.be.closeTo(
+      parser.freq(60.25),
+      0.1
+    );
+    maxAPI.outlet({
+      convert_nn_to_freq: { inlet0: 65, inlet1: 8192 - 8192 / 2, inlet2: 1 }
+    });
+    expect(yield, 'Quarter lower than F=65').to.be.closeTo(
+      parser.freq(64.5),
+      0.1
+    );
   }
 };
