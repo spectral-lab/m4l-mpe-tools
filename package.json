@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Max for Live devices for utilizing MPE",
   "scripts": {
+    "format": "yarn prettier --write **/*.js",
     "rm-cache": "node ./scripts/rm-cache"
   },
   "main": "index.js",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "note-parser": "^2.0.1",
+    "prettier": "^1.17.1",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
