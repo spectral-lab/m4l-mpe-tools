@@ -22,7 +22,7 @@ To remove them, take the following step.
   "cacheDirs": [
     "/Users/UserName/Library/Application Support/Cycling '74/Max 8/Settings/temp64-live/mxt", 
     "/Users/UserName/Documents/Max 8/Max for Live Devices", 
-    "/Users/UserName/.Trash",
+    "/Users/UserName/.Trash"
   ]
 }
 ```

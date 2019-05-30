@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 184.0, 43.0, 79.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 184.0, 43.0, 79.0, 22.0 ],
+					"text" : "update-menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -147,19 +161,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 56.0, 75.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.0, 56.0, 75.0, 22.0 ],
 					"text" : "get_track_id"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 236.0, 61.0, 22.0 ],
-					"text" : "send-midi"
 				}
 
 			}
@@ -242,7 +246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 277.0, 168.0, 83.0, 22.0 ],
+					"patching_rect" : [ 277.0, 13.0, 83.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -274,7 +278,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : [ "IAC Driver Bus 1", ",", "nanoKEY2 CTRL", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "nanoKEY2 CTRL", ",", "Analog Four Elektron MIDI", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -293,7 +297,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 247.0, 64.0, 22.0 ],
+					"patching_rect" : [ 277.0, 56.0, 64.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 277.0, 56.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -344,6 +350,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -408,13 +421,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-31", 0 ]
 				}
 
 			}
