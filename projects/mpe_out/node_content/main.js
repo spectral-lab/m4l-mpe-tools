@@ -8,11 +8,11 @@ const main = () => {
   maxAPI.addHandler('send-midi', sendMIDI);
   output.openPort(0);
   updateMenu();
-}
+};
 
 const updateMenu = () => {
   maxAPI.outlet('to-menu', 'clear');
-  for (let i = 0; i < output.getPortCount(); i ++) {
+  for (let i = 0; i < output.getPortCount(); i++) {
     maxAPI.outlet('to-menu', 'append', output.getPortName(i));
   }
 };
@@ -35,8 +35,7 @@ const sendMIDI = (status, data1, data2) => {
     output.sendMessage([status]);
     return;
   }
-  maxAPI.post('Append MIDI message as a list of integers')
+  maxAPI.post('Append MIDI message as a list of integers');
 };
 
 main();
-
